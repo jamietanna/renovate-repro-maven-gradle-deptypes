@@ -1,0 +1,13 @@
+buildscript { repositories { mavenCentral() }}
+
+plugins {
+	id 'java'
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+	implementation 'commons-lang:commons-lang:2.6'
+}
