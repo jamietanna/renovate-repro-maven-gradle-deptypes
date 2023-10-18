@@ -1,0 +1,175 @@
+{
+	"packageFiles": {
+		"gradle": [
+			{
+				"packageFile": "build.gradle",
+				"datasource": "maven",
+				"deps": [
+					{
+						"depName": "commons-lang:commons-lang",
+						"currentValue": "2.6",
+						"managerData": {
+							"fileReplacePosition": 144,
+							"packageFile": "build.gradle"
+						},
+						"fileReplacePosition": 144,
+						"datasource": "maven",
+						"registryUrls": [
+							"https://repo.maven.apache.org/maven2"
+						],
+						"depType": "dependencies"
+					},
+					{
+						"depName": "jakarta.servlet:jakarta.servlet-api",
+						"currentValue": "6.0.0",
+						"managerData": {
+							"fileReplacePosition": 278,
+							"packageFile": "build.gradle"
+						},
+						"fileReplacePosition": 278,
+						"datasource": "maven",
+						"registryUrls": [
+							"https://repo.maven.apache.org/maven2"
+						],
+						"depType": "dependencies"
+					},
+					{
+						"depName": "mysql:mysql-connector-java",
+						"currentValue": "8.0.28",
+						"managerData": {
+							"fileReplacePosition": 326,
+							"packageFile": "build.gradle"
+						},
+						"fileReplacePosition": 326,
+						"datasource": "maven",
+						"registryUrls": [
+							"https://repo.maven.apache.org/maven2"
+						],
+						"depType": "dependencies"
+					},
+					{
+						"depName": "junit:junit",
+						"currentValue": "4.13",
+						"managerData": {
+							"fileReplacePosition": 367,
+							"packageFile": "build.gradle"
+						},
+						"fileReplacePosition": 367,
+						"datasource": "maven",
+						"registryUrls": [
+							"https://repo.maven.apache.org/maven2"
+						],
+						"depType": "dependencies"
+					},
+					{
+						"depName": "org.springframework:spring-framework-bom",
+						"currentValue": "6.0.13",
+						"managerData": {
+							"fileReplacePosition": 441,
+							"packageFile": "build.gradle"
+						},
+						"fileReplacePosition": 441,
+						"datasource": "maven",
+						"registryUrls": [
+							"https://repo.maven.apache.org/maven2"
+						],
+						"depType": "dependencies"
+					},
+					{
+						"depName": "org.apache.httpcomponents:httpclient",
+						"currentValue": "4.5.5",
+						"managerData": {
+							"fileReplacePosition": 500,
+							"packageFile": "build.gradle"
+						},
+						"fileReplacePosition": 500,
+						"datasource": "maven",
+						"registryUrls": [
+							"https://repo.maven.apache.org/maven2"
+						],
+						"depType": "dependencies"
+					}
+				]
+			},
+			{
+				"packageFile": "buildSrc/build.gradle",
+				"datasource": "maven",
+				"deps": [
+					{
+						"depName": "commons-lang:commons-lang",
+						"currentValue": "2.6",
+						"managerData": {
+							"fileReplacePosition": 165,
+							"packageFile": "buildSrc/build.gradle"
+						},
+						"fileReplacePosition": 165,
+						"datasource": "maven",
+						"registryUrls": [
+							"https://repo.maven.apache.org/maven2"
+						],
+						"depType": "devDependencies"
+					}
+				]
+			}
+		],
+		"maven": [
+			{
+				"datasource": "maven",
+				"packageFile": "pom.xml",
+				"deps": [
+					{
+						"datasource": "maven",
+						"depName": "commons-lang:commons-lang",
+						"currentValue": "2.6",
+						"fileReplacePosition": 518,
+						"registryUrls": [
+							"https://repo.maven.apache.org/maven2"
+						],
+						"depType": "compile"
+					},
+					{
+						"datasource": "maven",
+						"depName": "jakarta.servlet:jakarta.servlet-api",
+						"currentValue": "6.0.0",
+						"fileReplacePosition": 661,
+						"registryUrls": [
+							"https://repo.maven.apache.org/maven2"
+						],
+						"depType": "provided"
+					},
+					{
+						"datasource": "maven",
+						"depName": "mysql:mysql-connector-java",
+						"currentValue": "8.0.28",
+						"fileReplacePosition": 824,
+						"registryUrls": [
+							"https://repo.maven.apache.org/maven2"
+						],
+						"depType": "runtime"
+					},
+					{
+						"datasource": "maven",
+						"depName": "junit:junit",
+						"currentValue": "4.12",
+						"fileReplacePosition": 972,
+						"registryUrls": [
+							"https://repo.maven.apache.org/maven2"
+						],
+						"depType": "test"
+					},
+					{
+						"datasource": "maven",
+						"depName": "org.springframework:spring-framework-bom",
+						"currentValue": "5.3.27",
+						"fileReplacePosition": 1207,
+						"registryUrls": [
+							"https://repo.maven.apache.org/maven2"
+						],
+						"depType": "import"
+					}
+				],
+				"packageFileVersion": "0.1-SNAPSHOT"
+			}
+		]
+	}
+}
