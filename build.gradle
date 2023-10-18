@@ -1,0 +1,18 @@
+plugins {
+	id 'java'
+}
+
+configurations {
+	smokeTest.extendsFrom testImplementation
+}
+
+dependencies {
+	implementation 'commons-lang:commons-lang:2.6'
+	// https://stackoverflow.com/questions/30731084/provided-dependency-in-gradle
+	compileOnly 'jakarta.servlet:jakarta.servlet-api:6.0.0'
+	runtimeOnly 'mysql:mysql-connector-java:8.0.28'
+	testImplementation 'junit:junit:4.13'
+  implementation platform('org.springframework:spring-framework-bom:6.0.13')
+
+	smokeTest 'org.apache.httpcomponents:httpclient:4.5.5'
+}
